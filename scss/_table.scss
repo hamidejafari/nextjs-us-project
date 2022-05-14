@@ -1,0 +1,132 @@
+table {
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+.table {
+	--bs-table-bg: transparent;
+	--bs-table-striped-color: #212529;
+	--bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+	--bs-table-active-color: #212529;
+	--bs-table-active-bg: rgba(0, 0, 0, 0.1);
+	--bs-table-hover-color: #212529;
+	--bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+	vertical-align: top;
+	border-color: #dee2e6;
+}
+.table > :not(caption) > * > * {
+	padding: 0.5rem 0.5rem;
+	background-color: var(--bs-table-bg);
+	border: 2px solid #ddd;
+	box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.table > tbody {
+	vertical-align: inherit;
+}
+.table > thead {
+	vertical-align: bottom;
+}
+.table > :not(:last-child) > :last-child > * {
+	border-bottom-color: currentColor;
+}
+
+.table-responsive {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 575.98px) {
+	.table-responsive-sm {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media (max-width: 767.98px) {
+	.table-responsive-md {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media (max-width: 991.98px) {
+	.table-responsive-lg {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media (max-width: 1199.98px) {
+	.table-responsive-xl {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media (max-width: 1399.98px) {
+	.table-responsive-xxl {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+.compare-tool .headerth {
+	position: sticky;
+	z-index: 1010;
+	top: 0;
+	background-color: #fff;
+	outline: 1px solid #ddd;
+	img {
+		width: 30%;
+	}
+	.mdl {
+		width: 3rem;
+		position: absolute;
+		top: -2px;
+		left: 3rem;
+	}
+}
+.footerth {
+	position: sticky;
+	bottom: 0;
+	z-index: 99;
+	background-color: #fff !important;
+	outline: 1px solid #ddd;
+	vertical-align: middle;
+}
+.vsdetails {
+	thead {
+		tr {
+			.headerth {
+				vertical-align: middle;
+				border: 2px solid #ddd;
+				&:nth-child(1) {
+					width: 37.5%;
+					background-color: #f5f5f5;
+				}
+				&:nth-child(2) {
+					width: 25%;
+				}
+				&:nth-child(3) {
+					width: 37.5%;
+					background-color: #f5f5f5;
+				}
+			}
+		}
+	}
+}
+tr {
+	background-color: #fff;
+	&:nth-child(even) {
+		background-color: #f5f5f5;
+	}
+}
+.w37{
+	width: 37.7%;
+	vertical-align: middle;
+	background-color: #f5f5f5 !important;
+	border-bottom: 2px solid #ddd;
+}
+.w25{
+	width: 25%;
+	vertical-align: middle;
+	border-bottom: 2px solid #ddd;
+	
+}

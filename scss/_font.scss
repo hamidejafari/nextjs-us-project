@@ -1,0 +1,15 @@
+@font-face {
+	font-family: montserratregular;
+	font-style: normal;
+	src: url("../public/fonts/Montserrat-Regular.ttf") format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: montserratbold;
+	font-style: normal;
+	src: url("../public/fonts/montserrat.bold.ttf") format("truetype");
+	font-display: swap;
+}
+
+$regular: montserratregular;
+$bold: montserratbold;

@@ -1,0 +1,1001 @@
+@media (max-width: 576px) {
+
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1.6rem !important;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+		}
+		.wmx {
+			width: 100% !important;
+			margin: 0;
+			padding: 0.25rem 1rem;
+			&-img {
+				width: 100%;
+				margin: auto;
+				border: 1px solid #eee;
+			}
+		}
+		.Chip-filled {
+			.Chip-label {
+				font-size: 1.25rem !important;
+			}
+		}
+		.Avatar-circular {
+			font-size: 1.1rem !important;
+			width: 2.5rem !important;
+			height: 2.5rem !important;
+		}
+	}
+	.pro .product-info .Accordion-root h3 {
+		font-size: 0.9rem;
+	}
+	.Container-root {
+		max-width: 100% !important;
+		width: 100% !important;
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	.btnLogin {
+		font-size: 0.8rem;
+	}
+	.headerpanel {
+		padding: 4.7rem 0 0rem !important;
+	}
+	.containerInn {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.btnScroll {
+		bottom: 4.5%;
+		right: 4.5%;
+	}
+	.reviewCard {
+		height: auto !important;
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			padding: 0 0 2rem;
+			button {
+				width: 15px;
+				height: 15px;
+				min-width: 15px;
+				min-height: 15px;
+				margin: 0 0.15rem;
+			}
+		}
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+	.Breadcrumbs-root {
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		.Breadcrumbs-ol {
+			width: max-content;
+			p,
+			a {
+				font-size: 0.8rem !important;
+			}
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	.Paper-root.navbar {
+		background-color: #fff !important;
+	}
+	.best {
+		.figure {
+			height: auto !important;
+			.figure-inn {
+				img {
+					width: 100% !important;
+				}
+			}
+		}
+		.numberbox {
+			width: 100% !important;
+			height: 2.75rem;
+		}
+	}
+	.headerInn,
+	.headerInnpr,
+	.headerInnPro {
+		padding: 4.65rem 0 1rem;
+	}
+	.header-box .header-inn h1 {
+		font-size: 1.1rem;
+		font-weight: bolder;
+		text-align: center;
+		padding: 0 1rem;
+	}
+	.header {
+		// .headerImg img {
+		// 	width: 60%;
+		// }
+		input {
+			padding: 0.5rem !important;
+		}
+		.searchForm {
+			padding: 0 1rem !important;
+		}
+	}
+	.reviewMob {
+		display: block;
+	}
+	.reviewDesk {
+		display: none;
+	}
+	.review::after {
+		content: none;
+	}
+	.carousel-item-count {
+		margin: 0 0 0 10px;
+		background-color: #fff;
+	}
+	.coupons,
+	.blogs {
+		.ul {
+			overflow: auto;
+			white-space: nowrap;
+			.li {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 70%;
+				margin-right: 0.5rem;
+			}
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 40%;
+				margin-right: 0.5rem;
+				max-width: 70%;
+			}
+		}
+	}
+	.pro {
+		.ul {
+			overflow: auto;
+			white-space: nowrap;
+			.li {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 70%;
+				margin-right: 0.5rem;
+			}
+		}
+		.sidebarBest .topBrandsName {
+			height: 3rem;
+			font-size: 0.9rem;
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 40%;
+				margin-right: 0.5rem;
+				max-width: 70%;
+			}
+		}
+	}
+	.bestMbsd {
+		.figure {
+			height: 10rem;
+		}
+
+		.sidebarBest .topBrandsName {
+			height: 3rem;
+			font-size: 0.9rem;
+			.numberCaret {
+				font-size: 0.9rem;
+				width: 3rem;
+			}
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 40%;
+				margin-right: 0.5rem;
+				max-width: 70%;
+			}
+		}
+		.sidebarBest {
+			box-shadow: none;
+			border-radius: 0px;
+			overflow: scroll;
+			.css-6od3lo-MuiChip-label {
+				margin: auto;
+			}
+			.ul {
+				.li {
+					&:nth-child(1) {
+						.topBrandsName {
+							border: 1px solid $secondary;
+							color: $secondary;
+						}
+					}
+				}
+			}
+			.topBrandsName {
+				width: 100%;
+				height: 3rem;
+				justify-content: flex-start;
+				font-size: 1rem;
+				border-radius: 0px;
+				background-color: #f4f4f4;
+				font-weight: bolder;
+				cursor: pointer;
+				transition: 0.4s ease-in-out;
+				&:hover {
+					background-color: $primery;
+				}
+				.numberCaret {
+					font-size: 1.25rem;
+					margin: 0;
+					height: 100%;
+					border-radius: 0;
+					width: 3rem;
+					color: #fff;
+					background-color: $secondary;
+				}
+			}
+		}
+		.numberbox {
+			width: 85%;
+			height: 3.75rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 0px;
+			padding: 0.65rem;
+			.MuiTypography-h4 {
+				padding: 4px 0 0;
+			}
+		}
+	}
+	.best {
+		.figure {
+			height: 10rem;
+		}
+		.ul {
+			overflow: auto;
+			white-space: nowrap;
+			.li {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 70%;
+				margin-right: 0.5rem;
+			}
+		}
+		.sidebarBest .topBrandsName {
+			height: 3rem;
+			font-size: 0.9rem;
+			.numberCaret {
+				font-size: 0.9rem;
+				width: 3rem;
+			}
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 40%;
+				margin-right: 0.5rem;
+				max-width: 70%;
+			}
+		}
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.6rem !important;
+	}
+	.blogdetails {
+		.CardContent.det {
+			.date {
+				height: 2.5rem;
+				div {
+					display: flex;
+					justify-content: space-between;
+					div {
+						display: block;
+						margin: 0 5px;
+					}
+				}
+			}
+			.nameBlog {
+				height: 12rem;
+				padding: 0;
+				&::after {
+					content: none;
+				}
+			}
+		}
+	}
+	.vs-header {
+		.card-header {
+			&::after {
+				width: 0.25rem;
+				transform: rotate(0deg);
+			}
+		}
+		.Fab-root {
+			min-width: 40px;
+			min-height: 40px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 2rem;
+			bottom: auto;
+			position: absolute;
+			p {
+				font-size: 1rem;
+			}
+		}
+	}
+	.headerCoupon {
+		padding-top: 6rem;
+	}
+	.header .searchForm .searchBtn {
+		right: 21px;
+	}
+	.compare-tool {
+		.py-4 {
+			padding-top: 10px !important;
+			padding-bottom: 10px !important;
+		}
+		.px-5 {
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+		}
+		.headerth {
+			.imgcrd {
+				width: 75% !important;
+			}
+			.mdl {
+				width: 2rem !important;
+				left: 0rem !important;
+			}
+		}
+		.chipName {
+			font-size: 1rem;
+			height: 2rem;
+			.Avatar-circular {
+				width: 2rem;
+				font-size: 1rem;
+			}
+		}
+	}
+	.tblmobl {
+		overflow: scroll;
+	}
+	.chipName {
+		height: 2rem;
+		font-size: 0.65rem;
+		.Avatar-circular {
+			width: 2rem;
+			font-size: 1rem;
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 100%;
+			margin: auto;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+}
+@media (min-width: 576px) and (max-width: 900px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 1.25rem !important;
+			width: 2.5rem !important;
+			height: 2.5rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+	.containerInn {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.descriptionBest {
+		-webkit-line-clamp: 10 !important;
+	}
+	.btnScroll {
+		bottom: 5rem;
+		right: 4.5%;
+	}
+	.review .reviewCard {
+		height: auto !important;
+	}
+	.bestMbsd {
+		.figure {
+			height: 10rem;
+		}
+
+		.sidebarBest .topBrandsName {
+			height: 3rem;
+			font-size: 0.9rem;
+			.numberCaret {
+				font-size: 0.9rem;
+				width: 3rem;
+			}
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 40%;
+				margin-right: 0.5rem;
+				max-width: 70%;
+			}
+		}
+		.sidebarBest {
+			box-shadow: none;
+			border-radius: 0px;
+			overflow: scroll;
+			.css-6od3lo-MuiChip-label {
+				margin: auto;
+			}
+			.ul {
+				.li {
+					&:nth-child(1) {
+						.topBrandsName {
+							border: 1px solid $secondary;
+							color: $secondary;
+						}
+					}
+				}
+			}
+			.topBrandsName {
+				width: 100%;
+				height: 3rem;
+				justify-content: flex-start;
+				font-size: 1rem;
+				border-radius: 0px;
+				background-color: #f4f4f4;
+				font-weight: bolder;
+				cursor: pointer;
+				transition: 0.4s ease-in-out;
+				&:hover {
+					background-color: $primery;
+				}
+				.numberCaret {
+					font-size: 1.25rem;
+					margin: 0;
+					height: 100%;
+					border-radius: 0;
+					width: 3rem;
+					color: #fff;
+					background-color: $secondary;
+				}
+			}
+		}
+		.numberbox {
+			width: 85%;
+			height: 3.75rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 0px;
+			padding: 0.65rem;
+			.MuiTypography-h4 {
+				padding: 4px 0 0;
+			}
+		}
+	}
+	.Breadcrumbs-root {
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		.Breadcrumbs-ol {
+			width: max-content;
+			p,
+			a {
+				font-size: 0.8rem !important;
+			}
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	.Paper-root.navbar {
+		background-color: #fff !important;
+	}
+	.best {
+		.figure {
+			height: 10rem;
+		}
+		.ul {
+			overflow: auto;
+			white-space: nowrap;
+			.li {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 45%;
+				margin-right: 0.5rem;
+			}
+		}
+		.sidebarBest .topBrandsName {
+			height: 3rem;
+			font-size: 0.9rem;
+			.numberCaret {
+				font-size: 0.9rem;
+				width: 3rem;
+			}
+		}
+		.rowmob {
+			overflow: auto;
+			white-space: nowrap;
+			display: block;
+			.mob {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 0;
+				text-decoration: none;
+				width: 30%;
+				margin-right: 0.5rem;
+				max-width: 30%;
+			}
+		}
+	}
+	.headerInn,
+	.headerInnpr,
+	.headerInnPro {
+		padding: 4.65rem 0 1rem;
+	}
+	.header-box .header-inn h1 {
+		font-size: 1.5rem;
+		font-weight: bolder;
+		text-align: center;
+		padding: 0 1rem;
+	}
+	.header {
+		height: 100vh;
+		// .headerImg img {
+		// 	width: 25%;
+		// 	display: none;
+		// }
+		input {
+			padding: 0.5rem !important;
+		}
+		.searchForm {
+			padding: 0 1rem !important;
+		}
+	}
+	.reviewMob {
+		display: block;
+	}
+	.reviewDesk {
+		display: none;
+	}
+	.review::after {
+		content: none;
+	}
+	.carousel-item-count {
+		margin: 0 0 0 10px;
+		background-color: #fff;
+	}
+	.best {
+		.figure {
+			height: 13rem;
+		}
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.7rem !important;
+	}
+	.vs-header {
+		.card-header::after {
+			width: 2rem;
+		}
+		.Fab-root {
+			min-width: 80px;
+			min-height: 80px;
+			p {
+				font-size: 1.3rem;
+			}
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 100%;
+			margin: auto;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			padding: 0 0 2rem;
+			button {
+				width: 15px;
+				height: 15px;
+				min-width: 15px;
+				min-height: 15px;
+				margin: 0 0.15rem;
+			}
+		}
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+}
+@media (min-width: 900px) and (max-width: 992px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 1.5rem !important;
+			width: 2.75rem !important;
+			height: 2.75rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+	.containerInn {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.btnScroll {
+		bottom: 5rem;
+		right: 4.5%;
+	}
+	.Paper-root.navbar {
+		background-color: #fff !important;
+	}
+	.navbar a {
+		font-size: 0.9rem;
+	}
+	.reviewMob {
+		display: block;
+	}
+	.reviewDesk {
+		display: none;
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.7rem !important;
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 90%;
+			margin: auto;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			padding: 0 0 2rem;
+			button {
+				width: 15px;
+				height: 15px;
+				min-width: 15px;
+				min-height: 15px;
+				margin: 0 0.15rem;
+			}
+		}
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 175rem !important;
+			width: 3rem !important;
+			height: 3rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 95% !important;
+		width: 95% !important;
+	}
+	.containerInn {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.reviewMob {
+		display: none;
+	}
+	.reviewDesk {
+		display: block;
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.7rem !important;
+	}
+	.maincat {
+		.TabsListUnstyled-horizontal {
+			width: max-content;
+			margin: 0rem auto 1rem;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			display: none !important;
+		}
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 80%;
+			margin: auto;
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 1.75rem !important;
+			width: 3rem !important;
+			height: 3rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 95% !important;
+		width: 95% !important;
+	}
+	.containerInn {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.reviewMob {
+		display: none;
+	}
+	.reviewDesk {
+		display: block;
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.6rem !important;
+	}
+	.maincat {
+		.TabsListUnstyled-horizontal {
+			width: max-content;
+			margin: 0rem auto 1rem;
+		}
+	}
+	.react-multi-carousel-list {
+		button {
+			display: none !important;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			display: none !important;
+		}
+		.react-multi-carousel-list {
+			button {
+				display: block !important;
+			}
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 70%;
+			margin: auto;
+		}
+	}
+}
+@media (min-width: 1300px) and (max-width: 1400px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 2rem !important;
+			width: 3.5rem !important;
+			height: 3.5rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 90% !important;
+		width: 90% !important;
+	}
+	.containerInn {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.reviewMob {
+		display: none;
+	}
+	.reviewDesk {
+		display: block;
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.6rem !important;
+	}
+	.maincat {
+		.TabsListUnstyled-horizontal {
+			width: max-content;
+			margin: 0rem auto 1rem;
+		}
+	}
+	.react-multi-carousel-list {
+		button {
+			display: none !important;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			display: none !important;
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 60%;
+			margin: auto;
+		}
+	}
+}
+@media (min-width: 1400px) {
+	.wmxbox {
+		.AccordionSummary-content {
+			padding-right: 1rem !important;
+		}
+		.Avatar-circular {
+			font-size: 2rem !important;
+			width: 3.5rem !important;
+			height: 3.5rem !important;
+		}
+	}
+	
+	.Container-root {
+		max-width: 85% !important;
+		width: 85% !important;
+	}
+	.containerInn {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.reviewMob {
+		display: none;
+	}
+	.reviewDesk {
+		display: block;
+	}
+	.btnVisit,
+	.btnReview {
+		font-size: 0.7rem;
+	}
+	.product-info {
+		padding-left: 2rem;
+	}
+	// .cetegorys {
+	// 	.Grid-grid-xl-9 {
+	// 		.Grid-grid-xl-3 {
+	// 			flex-basis: 20%;
+	// 			max-width: 20%;
+	// 		}
+	// 	}
+	// }
+	.maincat {
+		.TabsListUnstyled-horizontal {
+			width: max-content;
+			margin: 0rem auto 1rem;
+		}
+	}
+	.review {
+		.react-multi-carousel-list {
+			button {
+				display: none !important;
+			}
+		}
+	}
+	.disPro {
+		.figure {
+			text-align: center;
+		}
+		img {
+			width: 50%;
+			margin: auto;
+		}
+	}
+	.pronwimg {
+		.react-multi-carousel-dot-list {
+			display: none !important;
+		}
+	}
+}
